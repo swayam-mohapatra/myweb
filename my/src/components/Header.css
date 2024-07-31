@@ -1,0 +1,41 @@
+header {
+    background-color: #4CAF50;
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    position: fixed;
+  }
+  
+  header h1 {
+    color: white;
+    margin-bottom: 15%;
+    float: left;
+    text-align: center;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  nav a.active{
+    text-decoration: underline;
+    font-weight: bold;
+  }

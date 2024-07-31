@@ -1,0 +1,169 @@
+div {
+    /* width: 98%; */
+    /* margin: 50px auto; */
+    text-align: center;
+  }
+  
+  /* h2 {
+    color: #4CAF50;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-top: 20px;
+  }
+  
+  input, textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 30px;
+    color: #555;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .form{
+    flex: 1;
+  }
+  .updated{
+    flex: 1;
+  }
+   */
+   /* src/components/styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f3ef;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 2%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+/* Header Styles */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f3ef;
+} */
+
+.contact-button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Contact Page Styles */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contact-info {
+  flex: 1;
+  /* width: 500px;
+  height: auto; */
+
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-left: 5%;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  display: block;
+  margin-bottom: 10px;
+  
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  flex: 1;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  margin-right: 5%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #a3b2b7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #8a9ea3;
+}

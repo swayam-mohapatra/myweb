@@ -1,0 +1,175 @@
+/* div {
+    width: 100%;
+     margin: 50px auto;
+     padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  } */
+   
+  /* h2 {
+    text-align: center;
+    color: #4CAF50;
+  } */
+  
+  /* form {
+    display: flex;
+    flex-direction: column;
+  }
+   */
+  /* label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+  }
+  .login-containe{
+    display: flex;
+    
+    flex-direction: row;
+  }
+  */
+
+
+
+
+
+  /* src/components/styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ef;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+   
+   
+  }
+  
+  /* h1, h2 {
+    margin: 0;
+  } */
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f3ef;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Login Page Styles */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+   
+  }
+  
+  .login-image {
+    flex: 1;
+    background-color: #c8c0c0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 10%;
+  }
+  
+  .login-image img {
+    width: 68%;
+    height: auto;
+    
+  }
+  
+  .login-form {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: -5px;
+    margin-right: 10%;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #a3b2b7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #8a9ea3;
+  }
+  a{
+    cursor: pointer;
+    color: blue;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
